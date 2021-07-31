@@ -1,0 +1,346 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: scroll;
+    overflow-x: hidden;
+    background-color: #e0edef;
+}
+
+    body::-webkit-scrollbar {
+        width: 12px;
+        height: 5px;
+    }
+
+    body::-webkit-scrollbar-thumb {
+        background: #6982a3;
+        border-radius: 6px;
+    }
+
+        body::-webkit-scrollbar-thumb:hover {
+            background: #617793;
+            box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);
+        }
+
+.div_Nav {
+    background-color: #6982a3;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.Navegacion {
+    font-size: larger;
+    font-family: Snell Roundhand, cursive;
+    font-weight: bold;
+    border-bottom: 3px solid rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+}
+
+    .Navegacion ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+    }
+
+    .Navegacion li {
+        display: inline-block;
+    }
+
+    .Navegacion ul li a {
+        color: black;
+        display: block;
+        text-align: center;
+        padding: 20px 20px;
+        text-decoration: none;
+    }
+
+        .Navegacion ul li a:hover {
+            background-color: #aebbbd;
+        }
+.LinkButton1 {
+    display: block;
+    font-family: Snell Roundhand, cursive;
+    margin-left: 20px;
+    margin-top: 5px;
+    padding-top: 5px;
+    color: #414c5b;
+}
+.LinkButton1Admin {
+    display: inline-block;
+    float:left;
+
+    font-family: Snell Roundhand, cursive;
+    margin-left: 85%;
+    margin-top: 5px;
+    padding-top: 5px;
+    color: #414c5b;
+}
+/* ADMIN */
+.ButtonCargarResultados {
+    border: 0;
+    background: none;
+    display: inline-block;
+    margin: 15px auto;
+    margin-left: 15%;
+    text-align: center;
+    border: 2px solid black;
+    padding: 14px 40px;
+    border-radius: 24px;
+    cursor: pointer;
+    outline: none;
+    color: black;
+    transition: 0.25s;
+    font-family: Snell Roundhand, cursive;
+    font-weight: bold;
+}
+
+    .ButtonCargarResultados:hover {
+        background: black;
+        color: white;
+    }
+
+    /*FECHA*/
+.Label_Fecha {
+    font-family: Snell Roundhand, cursive;
+    font-weight: bold;
+    margin-left:15%;
+    margin-top:15px;
+}
+.Label_FechaN {
+    font-family: Snell Roundhand, cursive;
+    font-weight: bold;
+    text-align:center;
+    margin-left: 28%;
+    margin-top: 15px;
+}
+.DropDownFecha {
+    color: black;
+    margin: 5px;
+    font-size: 14px;
+    text-align: center;
+    width: 150px;
+    height: 25px;
+    border: solid 2px black;
+    display: inline-block;
+    border-radius: 20px;
+    /*position: absolute;*/
+    background-color: #f1f1f1;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+    .DropDownFecha:focus {
+        text-align: center;
+        background-color: lightgray;
+        font-size: 16px;
+    }
+.DropDownFechaP {
+    color: black;
+    margin: 5px;
+    font-size: 14px;
+    text-align: center;
+    width: 260px;
+    height: 25px;
+    border: solid 2px black;
+    display: inline-block;
+    border-radius: 20px;
+    /*position: absolute;*/
+    background-color: #f1f1f1;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+    .DropDownFechaP:focus {
+        text-align: center;
+        background-color: lightgray;
+        font-size: 16px;
+    }
+#Label_RdoE1, #Label_RdoE2, #Label_GolesE1, #Label_GolesE2, #Label_AE1, #Label_AE2, #Label_RE1, #Label_RE2 {
+    font-family: Snell Roundhand, cursive;
+    font-weight: bold;
+    margin-left: 15%;
+    margin-top: 15px;
+    text-align: center;
+}
+.Golesde {
+    font-family: Snell Roundhand, cursive;
+    font-weight: bold;
+    margin-left: 15px;
+    margin-top: 15px;
+    text-align: center;
+}
+#LabelLabelGolesDe1, #LabelGolesDe2, #Label3, #Label4, #Label7, #Label8 {
+    font-family: Snell Roundhand, cursive;
+}
+.TextBoxsRdo {
+    width: 40px;
+    height: 20px;
+    text-align: center;
+    font-family: Snell Roundhand, cursive;
+    font-weight: bold;
+    margin-left: 30px;
+    margin-top: 5px;
+    border-radius: 24px;
+    border: solid 2px black
+}
+.DropDownGoles {
+    color: black;
+    margin: 5px;
+    font-size: 14px;
+    text-align: center;
+    width: 260px;
+    height: 25px;
+    border: solid 2px black;
+    display: inline-block;
+    border-radius: 20px;
+    /*position: absolute;*/
+    background-color: #f1f1f1;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+    .DropDownGoles:focus {
+        text-align: center;
+        background-color: lightgray;
+        font-size: 16px;
+    }
+#Button_CargarTablaDatos {
+    border: 0;
+    background: none;
+    display: inline-block;
+    
+    margin-left: 70%;
+    text-align: center;
+    border: 2px solid black;
+    padding: 14px 40px;
+    border-radius: 24px;
+    cursor: pointer;
+    outline: none;
+    color: black;
+    transition: 0.25s;
+    font-family: Snell Roundhand, cursive;
+    font-weight: bold;
+}
+    
+    #Button_CargarTablaDatos:hover {
+        background: black;
+        color: white;   
+    }   
+/**/
+.div_ProxPartidos {
+    display: block;
+}
+
+    .div_ProxPartidos h2 {
+        display: block;
+        font-family: Snell Roundhand, cursive;
+        font-weight: bold;
+        color: #414c5b;
+        text-shadow: 0.05em 0.05em 0.05em black;
+        padding-left: 10%;
+        padding-top: 10px;
+    }
+/* TABLA */
+#Table_Rdos {
+    height: 80%;
+    margin-bottom: 10%;
+    margin-top: 0;
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+.cellfecha {
+    font-family: Snell Roundhand, cursive;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    padding-right: 20%;
+    margin-bottom:3%;
+}
+.cssNoticia {
+    text-align: center;
+    font-size: 16px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-family: Snell Roundhand, cursive;
+    font-weight: bold;
+}
+.cssNoticiaT {
+    text-align: center;
+    font-size: 16px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-family: Snell Roundhand, cursive;
+    font-weight: bold;
+    color: #414c5b;
+    text-shadow: 0.05em 0.05em 0.05em black;
+}
+.cssCelda {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 4%;
+    padding-right: 5%;
+}
+/* FOOTER */
+.footer {
+    
+    clear: both;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    height: 200px;
+    margin-top: -50px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    border-top: 3px solid rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    background-color: #6982a3;
+}
+
+.footer1 {
+    background-color: #6982a3;
+    display: inline-block;
+    float: left;
+}
+
+    .footer1 h5 {
+        margin-top: 5px;
+        margin-left: 10px;
+        margin-bottom: 0px;
+        padding: 5px;
+        font-family: Snell Roundhand, cursive;
+        font-weight: bold;
+    }
+
+    .footer1 p {
+        margin-top: 0px;
+        margin-left: 25px;
+        padding: 2px;
+        border: 0px;
+        margin-bottom: 0px;
+    }
+
+.footer2 {
+    margin-left: 5%;
+    background-color: #6982a3;
+    display: inline-block;
+    float: left;
+}
+
+    .footer2 h2 {
+        margin-left: 120px;
+        margin-top: 50px;
+        font-family: Snell Roundhand, cursive;
+        font-weight: bold;
+    }
+
+    .footer2 img {
+        margin-left: 120px;
+        margin-top: 0;
+        padding-top: 0;
+        border-top: 0px;
+        max-width: 150px;
+        max-height: 150px;
+    }

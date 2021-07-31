@@ -1,0 +1,365 @@
+﻿/* BODY */
+body {
+    margin: 0;
+    padding: 0;
+    overflow: scroll;
+    overflow-x: hidden;
+    background-color: #e0edef;
+}
+
+    body::-webkit-scrollbar {
+        width: 12px;
+        height: 5px;
+    }
+
+    body::-webkit-scrollbar-thumb {
+        background: #6982a3;
+        border-radius: 6px;
+    }
+
+        body::-webkit-scrollbar-thumb:hover {
+            background: #617793;
+            box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);
+        }
+/* NAVEGACION */
+.div_Nav {
+    background-color: #6982a3;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+.Navegacion {
+    font-size: larger;
+    font-family: Snell Roundhand, cursive;
+    font-weight: bold;
+    border-bottom: 3px solid rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+}
+    .Navegacion ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+    }
+    .Navegacion li {
+        display: inline-block;
+    }
+    .Navegacion ul li a {
+        color: black;
+        display: block;
+        text-align: center;
+        padding: 20px 20px;
+        text-decoration: none;
+    }
+        .Navegacion ul li a:hover {
+            background-color: #aebbbd;
+        }
+
+
+/* BOTONES */
+.CrearFixture {
+    border: 0;
+    background: none;
+    display: inline-block;
+    margin: 15px auto;
+    margin-left:15%;
+    text-align: center;
+    border: 2px solid black;
+    padding: 14px 40px;
+    border-radius: 24px;
+    cursor: pointer;
+    outline: none;
+    color: black;
+    transition: 0.25s;
+    font-family: Snell Roundhand, cursive;
+    font-weight: bold;
+}
+    .CrearFixture:hover {
+        background: black;
+        color: white;
+        
+    }
+/* CHECKBOX */
+.CheckBox {
+    
+    margin-left: 17%;
+    font-family: Snell Roundhand, cursive;
+    
+}
+/* LABELS Y TEXTBOXS*/
+#crea_calendario {
+    position: relative;
+}
+
+.content_float {
+    float: left;
+    margin-left: 15%;
+    font-size: 14px;
+    display: block;
+    font-family: Snell Roundhand, cursive;
+    padding: 15px;
+}
+
+#crea_calendario label, text {
+    font-size: 14px;
+    display: block;
+    font-family: Snell Roundhand, cursive;
+}
+/* FIXTURE FINAL*/
+.CrearFixtureFinal {
+    border: 0;
+    background: none;
+    display: block;
+    margin: 15px auto;
+    margin-right:10%;
+    text-align: center;
+    border: 2px solid black;
+    padding: 14px 40px;
+    border-radius: 24px;
+    cursor: pointer;
+    outline: none;
+    color: black;
+    transition: 0.25s;
+    font-family: Snell Roundhand, cursive;
+    font-weight: bold;
+}
+    .CrearFixtureFinal:hover {
+        background: black;
+        color: white;
+    }
+.CrearFixtureFinal1 {
+    border: 0;
+    background: none;
+    display: block;
+    margin-top:2%;
+    margin-left: 380%;
+    text-align: center;
+    border: 2px solid black;
+    padding: 14px 40px;
+    border-radius: 24px;
+    cursor: pointer;
+    outline: none;
+    color: black;
+    transition: 0.25s;
+    font-family: Snell Roundhand, cursive;
+    font-weight: bold;
+}
+    .CrearFixtureFinal1:hover {
+        background: black;
+        color: white;
+    }
+/* LABEL FIXTURE */
+.LabelFixtureF {
+    font-family: Snell Roundhand, cursive;
+    font-weight: bold;
+    margin-left:18%;
+}
+.LabelFixtureP {
+    font-family: Snell Roundhand, cursive;
+    font-weight: bold;
+    margin-left: 8%;
+}
+.LabelFixtureD {
+    font-family: Snell Roundhand, cursive;
+    font-weight: bold;
+    margin-left: 9%;
+}
+.LabelFixtureH {
+    font-family: Snell Roundhand, cursive;
+    font-weight: bold;
+    margin-left: 5%;
+}
+.LabelFixtureC {
+    font-family: Snell Roundhand, cursive;
+    font-weight: bold;
+    margin-left: 4%;
+}
+.LabelFixtureA {
+    font-family: Snell Roundhand, cursive;
+    font-weight: bold;
+    margin-left: 8%;
+}
+/* LABEL Y TEXT BOXS DE EQUIPOS DEFECTOS */
+.LabelEquipo {
+    font-family: Snell Roundhand, cursive;
+    font-weight: bold;
+    padding-right: 10px;
+}
+.TextBoxEquipo {
+    font-family: Snell Roundhand, cursive;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    
+    border-radius: 24px;
+    border: solid 2px black
+}
+/* TITULOS DE LA TABLA*/
+/*
+.TitulosTabla {
+    display: inline-block;
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+    padding-bottom: 0;
+    margin-button: 0;
+    margin-top: 0;
+
+}
+*/
+
+
+.h3dia {
+    padding-left: 4%;
+    font-family: Snell Roundhand, cursive;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #414c5b;
+    text-shadow: 0.05em 0.05em 0.05em black;
+}
+.h3hora {
+    padding-left: 2%;
+    font-family: Snell Roundhand, cursive;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #414c5b;
+    text-shadow: 0.05em 0.05em 0.05em black;
+}
+.h3lugar {
+    padding-left: 2%;
+    font-family: Snell Roundhand, cursive;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #414c5b;
+    text-shadow: 0.05em 0.05em 0.05em black;
+}
+.h3partido {
+    padding-left: 20%;
+    font-family: Snell Roundhand, cursive;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #414c5b;
+    text-shadow: 0.05em 0.05em 0.05em black;
+}
+.h3arbitro {
+    padding-left: 30%;
+    font-family: Snell Roundhand, cursive;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #414c5b;
+    text-shadow: 0.05em 0.05em 0.05em black;
+}
+/*Titulo tabla*/
+.div_ProxPartidos {
+    display:block;
+}
+    .div_ProxPartidos h2 {
+        display: block;
+        font-family: Snell Roundhand, cursive;
+        font-weight: bold;
+        color: #414c5b;
+        text-shadow: 0.05em 0.05em 0.05em black;
+        padding-left: 10%;
+        padding-top:10px;
+    }
+    /* TABLA */
+    .MyTable_Reglas {
+        /*margin-left: 15px;*/
+        height: 80%;
+        margin-bottom: 10%;
+        margin-top: 0;
+        width: 70%;
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+.cssFecha {
+    font-family: Snell Roundhand, cursive;
+    font-weight: bold;
+    font-size: 18px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-left: 10%;
+    margin-bottom: 10%;
+    margin-top: 35%;
+    padding-top: 2%;
+}
+
+.cssFila {
+    font-family: Snell Roundhand, cursive;
+    text-align:center;
+    margin-left:5%;
+}
+
+.cssTitulos {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 18px;
+    padding-right: 2%;
+    padding-bottom: 2%;
+    font-family: Snell Roundhand, cursive;
+    font-weight: bold;
+}
+
+.cssNoticia {
+    text-align: justify;
+    font-size: 16px;
+    padding-left: 5%;
+    padding-top: 10%;
+    font-family: Snell Roundhand, cursive;
+    font-weight: bold;
+}
+/* FOOTER */
+.footer {
+    
+    position:relative;
+    bottom: 0;
+    width: 100%;
+    min-height: 200px;
+    margin-top: -50px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    border-top: 3px solid rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    background-color: #6982a3;
+}
+.footer1 {
+    background-color: #6982a3;
+    display: inline-block;
+    float: left;
+}
+    .footer1 h5 {
+        margin-top: 5px;
+        margin-left: 10px;
+        margin-bottom: 0px;
+        padding: 5px;
+        font-family: Snell Roundhand, cursive;
+        font-weight: bold;
+    }
+    .footer1 p {
+        margin-top: 0px;
+        margin-left: 25px;
+        padding: 2px;
+        border: 0px;
+        margin-bottom: 0px;
+    }
+
+.footer2 {
+    margin-left: 5%;
+    background-color: #6982a3;
+    display: inline-block;
+    float: left;
+}
+    .footer2 h2 {
+        margin-left: 120px;
+        margin-top: 50px;
+        font-family: Snell Roundhand, cursive;
+        font-weight: bold;
+    }
+    .footer2 img {
+        margin-left: 120px;
+        margin-top: 0;
+        padding-top: 0;
+        border-top: 0px;
+        max-width: 150px;
+        max-height: 150px;
+    }

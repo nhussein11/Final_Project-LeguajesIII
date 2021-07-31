@@ -1,0 +1,483 @@
+﻿/* BODY */
+body {
+    margin: 0;
+    padding: 0;
+    overflow: scroll;
+    overflow-x: hidden;
+    background-color: #e0edef;
+}
+
+    body::-webkit-scrollbar {
+        width: 12px;
+        height: 5px;
+    }
+
+    body::-webkit-scrollbar-thumb {
+        background: #6982a3;
+        border-radius: 6px;
+    }
+
+        body::-webkit-scrollbar-thumb:hover {
+            background: #617793;
+            box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);
+        }
+/* NAVBAR */
+.div_Nav {
+    background-color: #6982a3;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+.Navegacion {
+    font-size: larger;
+    font-family: Snell Roundhand, cursive;
+    font-weight: bold;
+    border-bottom: 3px solid rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+}
+
+    .Navegacion ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+    }
+
+    .Navegacion li {
+        display: inline-block;
+    }
+
+    .Navegacion ul li a {
+        color: black;
+        display: block;
+        text-align: center;
+        padding: 20px 20px;
+        text-decoration: none;
+    }
+
+        .Navegacion ul li a:hover {
+            background-color: #aebbbd;
+        }
+/* VISTA USER */
+/*ACA NO LE USE EL PUNTO . ANTES DE DIV1 Y DIV 2*/
+
+.div1 {
+    position: relative;
+    
+}
+    .div1 img {
+        position: absolute;
+        
+        padding-top: 2%;
+        margin-right: 40%;
+        max-width: 160px;
+        
+    }
+
+/*
+    div2 {
+    position: relative;
+    display: inline-block;
+    float: left;
+    border:2px solid black;
+}
+*/
+
+h2 {
+    padding-top: 3%;
+}
+h2, h3 {
+
+    width: 500px;
+    margin: 0 auto;
+    text-align: center;
+    font-family: Snell Roundhand, cursive;
+    font-weight: bold;
+}
+#div_usuario img {
+
+    max-width: 150px;
+    margin-left: 70%;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.LabelUsuario {
+
+    text-align: center;
+    font-family: Snell Roundhand, cursive;
+    font-weight: bold;
+    margin-left: 30%;
+    padding: 15px;
+}
+
+    .TextBoxUsuarioNyA {
+        text-align: center;
+        font-family: Snell Roundhand, cursive;
+        margin-top: 10px;
+        margin-left: 72px;
+        height: 18px;
+        width: 205px;
+        border-radius: 24px;
+        
+    }
+.TextBoxUsuario {
+    text-align: center;
+    font-family: Snell Roundhand, cursive;
+    margin-top: 10px;
+    padding-left: 15px;
+    height: 18px;
+    width: 190px;
+    border-radius: 24px;
+    border: solid 2px black
+}
+.TextBoxUsuarioA {
+    display:block;
+    text-align: center;
+    font-family: Snell Roundhand, cursive;
+    margin-top: 0;
+    margin-left: 43%;
+    padding-left: 15px;
+    height: 100px;
+    width: 195px;
+    border-radius: 24px;
+    border: solid 2px black
+   
+}
+.BotonEnviar {
+    display:block;
+    border: 0;
+    background: none;
+    margin-top: 20px;
+    margin-bottom: 75px;
+    margin-left: 70%;
+    text-align: center;
+    border: 2px solid black;
+    padding: 14px 40px;
+    
+    border-radius: 24px;
+    cursor: pointer;
+    outline: none;
+    color: black;
+    transition: 0.25s;
+    font-family: Snell Roundhand, cursive;
+    font-weight: bold;
+}
+    .BotonEnviar:hover {
+        background: black;
+        color: white;
+    }
+/* DIV ADMIN */
+.DropDown {
+    color: black;
+    margin-left: 30%;
+    margin-top:20px;
+    font-size: 14px;
+    text-align: center;
+    width: 510px;
+    height: 30px;
+    border: solid 2px black;
+    display: block;
+    border-radius: 20px;
+    /*position: absolute;*/
+    background-color: #f1f1f1;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+    .DropDown:focus {
+        text-align: center;
+        background-color: lightgray;
+        font-size: 16px;
+    }
+.ResponderComentario {
+    border: 0;
+    background: none;
+    display: inline-block;
+    margin: 15px auto;
+    margin-left: 32%;
+    text-align: center;
+    border: 2px solid black;
+    padding: 14px 40px;
+    border-radius: 24px;
+    cursor: pointer;
+    outline: none;
+    color: black;
+    transition: 0.25s;
+    font-family: Snell Roundhand, cursive;
+    font-weight: bold;
+}
+
+    .ResponderComentario:hover {
+        background: black;
+        color: white;
+    }
+.EliminarComentario {
+    border: 0;
+    background: none;
+    display: inline-block;
+    margin: 15px auto;
+    margin-left: 15px;
+    text-align: center;
+    border: 2px solid black;
+    padding: 14px 40px;
+    border-radius: 24px;
+    cursor: pointer;
+    outline: none;
+    color: black;
+    transition: 0.25s;
+    font-family: Snell Roundhand, cursive;
+    font-weight: bold;
+}
+    .EliminarComentario:hover {
+        background: black;
+        color: white;
+    }
+/* TITULO DE LA TABLA DE COMENTARIOS */
+.labeltabla {
+    /* DIV */
+    margin-top:15px;
+}
+.LabelNyA {
+    font-family: Snell Roundhand, cursive;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-left:18%;
+}
+.LabelMail {
+    font-family: Snell Roundhand, cursive;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-left:5%;
+}
+.LabelAsunto {
+    font-family: Snell Roundhand, cursive;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-left: 9%;
+}
+.LabelCuerpo {
+    font-family: Snell Roundhand, cursive;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-left: 9%;
+}
+/*Div admin*/
+.labelAdmin {
+    font-family: Snell Roundhand, cursive;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-left: 35%;
+}
+.TextBoxMail_A {
+    text-align: center;
+    font-family: Snell Roundhand, cursive;
+    margin-top: 10px;
+    margin-left: 5%;
+    height: 18px;
+    width: 200px;
+    border-radius: 24px;
+    border: solid 2px black
+}
+.TextBoxAsunto_A {
+    text-align: center;
+    font-family: Snell Roundhand, cursive;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 3%;
+    height: 18px;
+    width: 200px;
+    border-radius: 24px;
+    border: solid 2px black
+}
+.TextAreaRta_A {
+    display: block;
+    text-align: center;
+    font-family: Snell Roundhand, cursive;
+    margin-top: 0;
+    margin-left: 43%;
+    padding-left: 15px;
+    height: 100px;
+    width: 195px;
+    border-radius: 24px;
+    border: solid 2px black
+}
+.TextBoxContraseña_A {
+    text-align: center;
+    font-family: Snell Roundhand, cursive;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left:1%;
+    height: 18px;
+    width: 200px;
+    border-radius: 24px;
+    border: solid 2px black
+}
+.BotonEnviarRta {
+    display: block;
+    border: 0;
+    background: none;
+    margin-top: 20px;
+    margin-bottom: 75px;
+    margin-left: 70%;
+    text-align: center;
+    border: 2px solid black;
+    padding: 14px 40px;
+    border-radius: 24px;
+    cursor: pointer;
+    outline: none;
+    color: black;
+    transition: 0.25s;
+    font-family: Snell Roundhand, cursive;
+    font-weight: bold;
+}
+
+    .BotonEnviarRta:hover {
+        background: black;
+        color: white;
+    }
+/* TABLA DE COMENTARIOS*/
+.Table_Comentarios {
+    height: 80%;
+    margin-bottom: 7%;
+    margin-top: 0;
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+    
+}
+
+.cssNoticia {
+    text-align: center;
+    font-size: 16px;
+    padding-top: 15%;
+    padding-bottom: 15%;
+    font-family: Snell Roundhand, cursive;
+    font-weight: bold;
+}
+.cssCelda {
+    border-bottom: 2px solid #6982a3;
+    padding-left: 4%;
+    padding-right: 5%;
+}
+/*Div Nuevo Usuario*/
+.NuevoUsuario {
+    
+    padding-bottom: 7%;
+    margin-top: 10px;
+    display: block;
+
+    
+    width: 100%;
+    height:40px;
+}
+.AgregarPerfilBoton {
+    border: 0;
+    background: none;
+    display: inline-block;
+    margin: 15px auto;
+    margin-left: 20%;
+    text-align: center;
+    border: 2px solid black;
+    padding: 14px 40px;
+    border-radius: 24px;
+    cursor: pointer;
+    outline: none;
+    color: black;
+    transition: 0.25s;
+    font-family: Snell Roundhand, cursive;
+    font-weight: bold;
+}
+
+    .AgregarPerfilBoton:hover {
+        background: black;
+        color: white;
+    }
+.TextBoxNombre {
+    display: inline-block;
+    text-align: center;
+    font-family: Snell Roundhand, cursive;
+    margin-top: 0;
+    margin-left: 15px;
+    padding-left: 15px;
+    height: 25px;
+    width: 195px;
+    border-radius: 24px;
+    border: solid 2px black;
+    color: #555555;
+}
+/* FOOTER */
+.footer {
+    /*
+    clear: both;
+        clear: both;
+    position: relative;
+    
+    margin-top: -50px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    */
+
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    height: 200px;
+    margin-top: -50px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    border-top: 3px solid rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    background-color: #6982a3;
+}
+
+.footer1 {
+    background-color: #6982a3;
+    display: inline-block;
+    float: left;
+    
+    max-width:60%;
+    
+}
+
+    .footer1 h5 {
+        margin-top: 5px;
+        margin-left: 10px;
+        margin-bottom: 0px;
+        padding: 5px;
+        font-family: Snell Roundhand, cursive;
+        font-weight: bold;
+    }
+
+    .footer1 p {
+        margin-top: 0px;
+        margin-left: 25px;
+        padding: 2px;
+        border: 0px;
+        margin-bottom: 0px;
+    }
+
+.footer2 {
+    margin-left: 2%;
+    background-color: #6982a3;
+    
+    display: inline-block;
+    float: right;
+    
+    max-width: 35%;
+}
+
+    .footer2 h2 {
+        margin-left: 0;
+        margin-top: 50px;
+        font-family: Snell Roundhand, cursive;
+        font-weight: bold;
+    }
+
+    .footer2 img {
+        margin-left: 160px;
+        margin-top: 0;
+        padding-top: 0;
+        border-top: 0px;
+        max-width: 150px;
+        max-height: 150px;
+        
+    }
